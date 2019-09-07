@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <title>Blank App</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<section id="page" data-role="page">
+			<header data-role="header">
+				<h1>ADD STORAGE </h1>
+			</header><!-- /header -->
+			<article role="main" class="ui-content">
+				
+				<div data-role="fieldcontain">
+					<h1>STORAGE TYPE:<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" placeholder="Home,business,etc..." data-clear-btn="true"/>
+					
+				</div>
+
+				<div data-role="fieldcontain">
+					<h1>DIMENSIONS:<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" placeholder="square meters" data-clear-btn="true"/>
+				</div>
+
+				<div data-role="fieldcontain">
+					<h1>DATE AND TIME:<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" placeholder="dd/mm/yyyy --:-- --" data-clear-btn="true" />
+				</div>
+
+				<div data-role="fieldcontain">
+					<h1>STORAGE FEATURES:<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" placeholder="private space , sharing space , CCTV,etc..." data-clear-btn="true" />
+				</div>
+
+				<div data-role="fieldcontain">
+					<h1>RENT PRICE (MONTHLY):<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" data-clear-btn="true" />
+				</div>
+
+				<label for="textArea"><h1>NOTES</h1></label>
+				<textarea cols="40" rows="8" name="textArea" id="textArea"></textarea>
+
+
+				<div data-role="fieldcontain">
+					<h1>REPORTER NAME:<b style="color: red">*</b></h1> 
+					<input type="text" name="textBox" id="textBox" value="" data-clear-btn="true" />
+				</div>
+
+				<a href="#" class="ui-btn ui-icon-plus ui-btn-icon-left"> <h1>ADD</h1></a>
+
+			</article><!-- /content -->
+			<footer data-role="footer" data-position="fixed">
+				<h1>TUANDUC</h1>
+			</footer>
+		</section><!-- /page -->
+    </body>
+</html>
